@@ -1,22 +1,25 @@
 
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import About from './component/About';
-import BannerSlider from './component/BannerSlider';
-import Courses from './component/Courses';
-import Donate from './component/Donate';
+
 import Footer from './component/Footer';
 import NavbarComponent from './component/NavbarComponent';
-import Services from './component/Services';
+
+import Home from './component/Home';
+
+import Tailoring from './component/Tailoring';
+import Coursedescrip from './component/Coursedescrip';
 
 function App() {
   return (
     <div className="App">
      <NavbarComponent/>
-    <BannerSlider/>
-    <About/>
-    <Services/>
-    <Courses/>
-    <Donate/>
+    
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/Tailoring' element={<Tailoring/>}/>
+      <Route path='/Coursedescrip' element={<Coursedescrip/>}/>
+    </Routes>
     <Footer/>
     </div>
   );
