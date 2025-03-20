@@ -4,6 +4,7 @@ import About from "./About";
 import Services from "./Services";
 import Courses from "./Courses";
 import Donate from "./Donate";
+//import Coursedetail from "./Coursedetail";
 //import Coursedescrip from "./Coursedescrip";
 //import Tailoring from "./Tailoring";
 
@@ -17,7 +18,7 @@ export default function Home(){
 <Donate/>
 {/* <Tailoring/> */}
 {/* <Coursedescrip/> */}
-
+ {/* <Coursedetail/> */}
         </>
     )
 }

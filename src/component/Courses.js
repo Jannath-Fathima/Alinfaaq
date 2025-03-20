@@ -10,7 +10,7 @@ export default function Courses() {
             image: "images/sewing.jpg",
             title: "தையல் பயிலகம்",
            description:"பெண்களுக்கு தையல் கற்றுத் தரும் இப்பயிற்சி, சுயதொழிலுக்கான முதன்மையான படியாக விளங்கும்.  இந்த வகுப்புகள் மூலம், பெண்கள் தன்னம்பிக்கையுடன் சுயதொழிலில் ஈடுபடலாம்.",
-           link:'/Coursedescrip'
+           link:'/Coursedetail'
         },
         {
             image: "images/aari.jpg",

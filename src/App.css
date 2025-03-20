@@ -86,11 +86,68 @@
 .regi button:hover{
   background-color: #3e8e41;
 }
+.sidecontent{
+  background-color:#000c11;
+  color: rgb(248, 233, 233);
+  height: 400px;
+  text-align: left;
+  
+  padding-left: 100px;
+  padding-top: 40px;  
+}
+.butn{
+  background-color: #333;
+  color:rgb(187, 175, 175);
+  border:none;
+  border-radius: 20px;
+   padding: 8px; 
+}
+.sidesimage{
+  margin: 0;
+  padding: 0;
+}
 
+.side-image{
+  height:400px;
+  width:100%;
+ 
+}
+.cardcon{
+   padding-left: 40px; 
+} 
+.cardcon2{
+   padding-left: 40px; 
+} 
+.text-brown{
+  color: brown;
+}
+.instructor{
+ border-radius:50%;
+ border: none;
+ align-items: center;
+ 
+ 
+}
+.student-work{
+  height: 280px;
+  width: 100%;
+}
+.side{
+  position: sticky;
+  min-width: 250px;
+  top:0;
+  align-items: start;
+  display: flex;
+  gap: 1rem;
+  min-width: 250px;
+  
+}
 
-
-
-
+.photo{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
 
 .nav-item-spacing {
   font-weight: 500;

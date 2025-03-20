@@ -8,7 +8,9 @@ import NavbarComponent from './component/NavbarComponent';
 import Home from './component/Home';
 
 import Tailoring from './component/Tailoring';
-import Coursedescrip from './component/Coursedescrip';
+import Coursedetail from './component/Coursedetail';
+
+//import Coursedescrip from './component/Coursedescrip';
 
 function App() {
   return (
@@ -18,7 +20,8 @@ function App() {
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/Tailoring' element={<Tailoring/>}/>
-      <Route path='/Coursedescrip' element={<Coursedescrip/>}/>
+      <Route path='/Coursedetail' element={<Coursedetail/>}/>
+    {/*   <Route path='/Coursedescrip' element={<Coursedescrip/>}/> */}
     </Routes>
     <Footer/>
     </div>
