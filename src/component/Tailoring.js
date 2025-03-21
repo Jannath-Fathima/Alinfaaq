@@ -22,7 +22,7 @@ return (
     
     
 
-    <h6>Fill out the form below to enroll in our<span className="gradient-text"> Free Tailoring Course</span> course</h6>
+    <h6>Fill out the form below to enroll in our<span className="gradient-text"> Free Tailoring Course</span></h6>
     <Form id="registrationForm">
         
       <Form.Group>
