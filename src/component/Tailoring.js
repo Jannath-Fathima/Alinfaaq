@@ -4,9 +4,9 @@ import { Button,Form, Image} from "react-bootstrap";
 
  export default function Tailoring () {
    
-return (
+return ( 
 <>
-
+<div className="body">
 
 <div className="form-container">
     
@@ -140,7 +140,7 @@ return (
     Created by <a href="https://astasystech.com"  className="gradient-text">Asta Systech</a>
 </div>
  </div>  
-
+ </div>
 </>
 );
 }
